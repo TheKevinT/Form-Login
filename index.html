@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form-Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="container mt-25vh">
+        <div class="row">
+            <br><br><br><br><br>
+            <div class="col-sm-6 col-sm-offset-3">
+
+                <p class="lead">LOGIN
+                </p>
+
+                <a data-toggle="modal" data-target="#sign-modal" class="btn btn-block btn-success">Sign Up</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="sign-modal">
+        <br><br><br>
+        <div class="modal-dialog modal-md">
+            <div class="modal-content modal-style">
+
+                <div class="modal-header text-white border-0">
+                    <!--&times; es la X a la derecha-->
+                    <button type="button" class="close" data-dismiss="modal"><span class="text-white">&times;</span></button>
+                    <h6 class="text-white">Create Your Account</h6>
+                </div>
+
+                <div class="modal-body pt-0 pb-0">
+                    <form class="form-style">
+                        <div class="form-group has-success">
+                            <label class="text-uppercase control-label">Full Name</label>
+                            <input class="form-control" placeholder="Enter your full name here">
+                        </div>
+                        <div class="form-group has-success">
+                            <label class="text-uppercase control-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Your personal email here">
+                        </div>
+                        <div class="form-group has-success">
+                            <label class="text-uppercase control-label">Password</label>
+                            <input type="password" class="form-control" placeholder="Your 8-character mixed-case password">
+                        </div>
+                        <div class="form-group has-success">
+                            <label class="text-uppercase control-label">Repeat Password</label>
+                            <input type="password" class="form-control" placeholder="Confirm what you typed above">
+                        </div>
+                        <div class="checkbox">
+                            <label class="font-11px text-muted">
+							<input type="checkbox">Agree to the terms and conditions</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer border-0">
+                    <a data-dismiss="modal" data-target="#sign-modal" class="text-white btn btn-link">Cancel</a>
+                    <a class="btn btn-success">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--LIBRERIAS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+body {
+    background-image: url(./img/fondo.jpg);
+    background-color: lightgreen;
+    background-blend-mode: multiply;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: hidden;
+}
+
+.html-style body {
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Fira Sans";
+    font-weight: 400;
+}
+
+.border-0 {
+    border: none;
+}
+
+.modal-style {
+    background-image: url("https://unsplash.it/3000/2000?image=1050");
+    background-position: center top;
+    background-size: cover;
+    background-color: lightgreen;
+    background-blend-mode: multiply;
+    border-radius: 6px;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.modal-perspective {
+    perspective: 1000px;
+}
+
+.form-style {
+    margin-left: 40px;
+    margin-right: -60px;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    padding-right: 45px;
+}
+
+.form-style input {
+    font-weight: 300;
+    font-size: 11px !important;
+}
+
+.form-style .form-group label {
+    font-weight: 700;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.modal-style h6 {
+    margin-top: 5px;
+}
+
+.text-white {
+    color: white;
+    opacity: 1;
+}
+
+.mt-25vh {
+    margin-top: 25vh;
+}
+
+.font-11px {
+    font-size: 11px;
+}
+
+.btn-success {
+    width: 200px;
+}
